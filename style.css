@@ -1,17 +1,160 @@
 :root{
-    --primary-color: #5EB9F0;
+    --primary-color:   #5EB9F0;
     --paragraph-color: #60697B;
-    --heading-color: #343F52;
-    --skyblue: #E5F4FD;
-    --white: #fff;
+    --heading-color:   #343F52;
+    --skyblue:         #E5F4FD;
+    --white:           #fff;
+    --light-grey:      #F0F8FE;
 }
 
 body{
     font-family: "Urbanist", sans-serif;
 }
 
+h2{
+    color: var(--heading-color);
+    font-size: 42px;
+    line-height: 50px;
+}
+
+h3{
+    color: var(--heading-color);
+    font-size: 23px;
+    line-height: 32px;
+}
+
+p{
+    color: var(--paragraph-color);
+    font-size: 17px;
+    line-height: 29px;
+    
+}
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
+    & li a{
+        text-decoration: none;
+        color: var(--heading-color);
+        font-weight: 600;
+    }
+    & li a:hover {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    color: var(--white);
+    display: block;
+    padding: 10px 10px;
+    width: fit-content;
+
+    }
+    
+}
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    box-shadow: 0px 0.1rem 0.5rem 0px rgb(60 60 60/ 38%);
+    color: var(--white);
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    width: fit-content;
+}
+/*Service Styles*/
+
+.services{
+    background-color: var(--light-grey);
+    padding: 50px 0;
+    & h2{
+        
+        max-width: 650px;
+        margin: 0 auto 70px;
+        text-align:center;
+    }
+}
+
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    }
+
+.service-item {
+    text-align: center;
+
+    & a{
+        color: var(--primary-color);
+        text-decoration: underline;
+    }
+
+    & h3{
+        margin-bottom: 15px;
+    }
+
+    & img{
+        min-height: 230px;
+    }
+    & p{
+        max-width: 316px;
+        margin: 0 auto 20px;
+    }
+}
+
+
+/*Testimonals styles*/
+
+.testimonials{
+    background-color: var(--light-grey);
+    padding: 70px 0;
+}
+
+& h2{
+    max-width: 670px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.testimonials-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+
+.testimonials-item{
+    background-color: var(--white);
+    padding: 20px;
+        & p{
+            font-size: 18px;  
+        }
+}
+
+.testimonials-author{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 30px;
+
+    & img{
+        max-width: 70px;
+    }
 }
