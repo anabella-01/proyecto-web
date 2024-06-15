@@ -79,14 +79,38 @@ nav{
     padding: 20px 0;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
 
-   /*& ul{
+   & ul{
         display: none;
-    }*/
 
+        &.active{
+            background-color: var(--primary-color);
+            
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            left: 0;
+            padding: 50px 0 20px;
+            position: absolute;
+            text-align: center;
+            top:  0;
+            width: 100%;
+        }
+    
+           &  a {
+            color: var(--white);
+           }
+           
+           & span{
+            font-weight: 600;
+            position: absolute;
+            right: 10px;
+            top: 20px;
+           }
+      }
 }
 
 
@@ -325,7 +349,6 @@ input::placeholder {
 .service-item {
     text-align: center;
 
-
     & a{
         color: var(--primary-color);
         text-decoration: none;
@@ -543,6 +566,18 @@ input::placeholder {
     }
 }
 
+.btn-nav{
+    display: none;
+}
+
+.nav-container{
+    & ul{
+        display: flex;
+        & a{
+            color: var(--paragraph-color);
+        }
+    }
+}
 
 .projects-container{
     grid-template-columns: repeat(2,1fr);
@@ -576,7 +611,7 @@ input::placeholder {
 }     
 
 .projects-container{
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
 }      
 
 .services-list{
