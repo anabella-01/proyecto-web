@@ -3,21 +3,21 @@
     {
         "id": 0,
         "title": "Web Design",
-        "image":"./img/services-1.svg",
+        "image":"https://cdn3.iconfinder.com/data/icons/future-pack/64/049-pattern-recognition-structure-abstract-grid-256.png",
         "description": "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget.Fusce dapibus tellus",
         "link": "/"
      },
      {
         "id": 1,
         "title": "Web Design",
-        "image":"./img/services-1.svg",
+        "image":"https://cdn3.iconfinder.com/data/icons/future-pack/64/049-pattern-recognition-structure-abstract-grid-256.png",
         "description": "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget.Fusce dapibus tellus",
         "link": "/"
      },
      {
         "id": 2,
         "title": "Web Design",
-        "image":"./img/services-1.svg",
+        "image":"https://cdn3.iconfinder.com/data/icons/future-pack/64/049-pattern-recognition-structure-abstract-grid-256.png",
         "description": "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget.Fusce dapibus tellus",
         "link": "/"
      }            
@@ -26,7 +26,7 @@
 
       "id": 0,
       "author": "Coriss Ambady",
-      "image": "./img/te1.svg",
+      "image": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-256.png",
       "area":"Financial Analyst",
       "testimonial": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”"
 
@@ -34,7 +34,7 @@
    {
       "id": 1,
       "author": "Coriss Ambady",
-      "image": "./img/te1.svg",
+      "image": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png",
       "area":"Financial Analyst",
       "testimonial": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”"
 
@@ -43,7 +43,7 @@
    {
       "id": 2,
       "author": "Coriss Ambady",
-      "image": "./img/te1.svg",
+      "image": "https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-256.png",
       "area":"Financial Analyst",
       "testimonial": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”"
 
@@ -52,7 +52,7 @@
    {
       "id": 3,
       "author": "Coriss Ambady",
-      "image": "./img/te1.svg",
+      "image": "https://cdn0.iconfinder.com/data/icons/user-pictures/100/matureman1-256.png",
       "area":"Financial Analyst",
       "testimonial": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”"
 
@@ -61,7 +61,7 @@
    {
       "id": 4,
       "author": "Coriss Ambady",
-      "image": "./img/te1.svg",
+      "image": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/girl-512.png",
       "area":"Financial Analyst",
       "testimonial": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”"
 
@@ -70,7 +70,7 @@
    {
       "id": 5,
       "author": "Coriss Ambady",
-      "image": "./img/te1.svg",
+      "image": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/boy-256.png",
       "area":"Financial Analyst",
       "testimonial": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”"
 
@@ -83,55 +83,55 @@
    },{
 
       "id": 1,
-      "question":"How do I get my subscription receipt?",
+      "question":"Are there any discounts for people in need?",
       "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tenetur voluptates."
    },
    {
       "id": 3,
-      "question":"How do I get my subscription receipt?",
+      "question":"Do you offer a free trial edit?",
       "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tenetur voluptates."
    },{
       "id": 4,
-      "question":"How do I get my subscription receipt?",
+      "question":"How do I reset my Account password?",
       "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tenetur voluptates."
    }
       ],
       "projects":[{
          "id":0,
-         "image": "./img/project1.svg",
+         "image": "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
          "title": "Project name",
          "category":"category"
       },
       {
          "id":1,
-         "image": "./img/project1.svg",
+         "image": "https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
          "title": "Project name",
          "category":"category"
       }
    ],
    "team":[{
       "id":0,
-      "image":"./img/team1.svg",
+      "image":"https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-256.png",
       "name": "Coriss Ambady",
       "area": "Financial Analyst",
       "slogan":"Fermentum massa justo sit amet risus morbi leo."
    },{
       "id":1,
-      "image":"./img/team1.svg",
+      "image":"https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-256.png",
       "name": "Coriss Ambady",
       "area": "Financial Analyst",
       "slogan":"Fermentum massa justo sit amet risus morbi leo."
    },
    {
       "id":2,
-      "image":"./img/team1.svg",
+      "image":"https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-256.png",
       "name": "Coriss Ambady",
       "area": "Financial Analyst",
       "slogan":"Fermentum massa justo sit amet risus morbi leo."
    },
    {
       "id":3,
-      "image":"./img/team1.svg",
+      "image":"https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-256.png",
       "name": "Coriss Ambady",
       "area": "Financial Analyst",
       "slogan":"Fermentum massa justo sit amet risus morbi leo."
